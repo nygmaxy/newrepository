@@ -1,0 +1,16 @@
+body {
+  background-image: url(./image/background.png);
+}
+body header {
+  width: 100%;
+  height: 0;
+  list-style-type: none;
+}
+body header .container .header-box {
+  display: flex;
+  list-style-type: none;
+  color: aliceblue;
+}
+body header .container .header-box .header-logo ul {
+  margin-left: 2500px;
+}/*# sourceMappingURL=style.css.map */

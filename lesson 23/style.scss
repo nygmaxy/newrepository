@@ -1,0 +1,55 @@
+// $bgcolor:yellow,;
+// $fontsize:300px;
+
+// @mixin box {
+//      width:100%;
+//      height:100vh; 
+//      background:black;
+// }
+
+
+// .container{
+//     @include box();
+//     .box{
+//         width: 50%;
+//         height:$fontsize;
+//         background:orange;
+//         .ul{
+//           list-style-type:none;
+//            .li{
+//             font-size:$fontsize;
+//             color:white;
+//            }
+//         }
+//         .ul2{
+//             list-style-type:none;  
+//             .li2:not(.not){
+//                 font-size:70px;
+//                 color:green;
+//             }
+//         }
+//     }
+// }
+body{
+background-image: url(./image/background.png);
+header{
+    width: 100%;
+    height: 0;
+    
+    .container{
+        @include box();
+        .header-box{
+            display: flex;
+            list-style-type: none;
+            color: aliceblue;
+            
+            .ul{
+                list-style-type: none;
+                margin-left: 500px;
+                color: aqua;
+            }
+        }
+        
+    }
+  }
+}

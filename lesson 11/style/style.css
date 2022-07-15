@@ -1,0 +1,50 @@
+*{
+    background-color: black;
+}
+header{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+header nav{
+    width: 30%; 
+    display: flex;
+    margin: 10px 0%;
+    padding: 0;
+}
+header nav li{ 
+    font-family: 'Circular';
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5em;
+    color: #FFFFFF;
+    list-style-type: none;
+    margin: 0 20px;
+}
+header img{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20% 0 40%;
+}
+.planets{
+    width:90%;
+    display: flex;
+}
+main .moon img{
+    width: 120%;
+    display: flex;
+    justify-content: center;
+}
+main .mars img{
+    width: 185%;
+    display: flex;
+    justify-content: center;
+}
+.blocks .block{
+    width: 310px;
+    height: 90px;
+    background: #FFFFFF;
+    border-radius: 1.5px;
+}
